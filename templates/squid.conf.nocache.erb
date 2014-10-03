@@ -60,9 +60,7 @@ via                            <%= @via %>
 access_log                     <%= line                            %>
 <% end -%>
 
-<% @cache.each do |line| -%>
-cache                          <%= line                            %>
-<% end -%>
+cache                          deny all
 
 # user-defined configuration settings from config_hash
 <% @config_hash.each do |k,v| -%>
