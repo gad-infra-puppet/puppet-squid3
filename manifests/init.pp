@@ -28,6 +28,7 @@ class squid3 (
   $http_port            = [ '3128' ],
   $acl                  = [],
   $http_access          = [],
+  $access_log           = [],
   $icp_access           = [],
   $tcp_outgoing_address = [],
   $cache_mem            = '256 MB',
